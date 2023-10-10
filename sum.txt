@@ -1,0 +1,20 @@
+algorithme_sm_pr_m
+Variable i : entier
+         s,p,M : reel
+tableau T(9) : Reel
+Debut
+pour i de 0 a 9 faire
+Ecrire ("donner un reel :")
+lire(T(i))
+fin pour 
+S <-- 0
+P <-- 1
+pour i de 0 a 9 faire
+S <-- S + T(i)
+P <-- P * T(i)
+M<= S/10
+ecrire("la somme de ces notes est", S)
+ecrire("le produit de ces notes est", P) 
+ecrire("la moyenne de ces notes est", M)
+fin pour
+fin
