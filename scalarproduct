@@ -1,0 +1,16 @@
+Algorithme produit_scalaire
+Variables
+Tableau V ( 3 ) : réel
+Tableau U ( 3 )
+: réel
+i : entier
+P : réel
+Debut
+Pour i ‹-- 0 à 2 pas 1 Faire
+Ecrire ( " Donner l'élémenet " , i + 1 , " de la vecteur V " )
+Lire（V（i））
+Ecrire ( " Donner l'élémenet " , i + 1 , " de la vecteur U 
+Lire (U (ii ) )
+fin Pour
+P＜-0
+Fin
