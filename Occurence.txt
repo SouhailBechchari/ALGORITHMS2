@@ -1,0 +1,19 @@
+Algorithme occurence
+Variables
+Tableau T (50) : entier 
+n, x : entier
+ Début
+Pour i ‹-- 0 à 49 pas 1 faire
+Ecrire ( " Donner l'élément "‚ 1+ 1, " : " )
+Lire (T (i) )
+fin Pour
+Ecrire (" Veuillez entrer la valeur de n: ")
+Lire (n)
+X＜ーー0
+Pour i ‹-- 0 à 49 pas 1 faire
+Si n = T (i) faire
+X＜－X+1
+fin Si
+fin Pour
+Ecrire ( " Le nombre d'occurence de ", n, " dans I est : ", x)
+Fin
