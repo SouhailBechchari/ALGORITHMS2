@@ -1,0 +1,9 @@
+ALGORITHME_TAB
+VARIABLES 
+TABLEAU N(10) : entier
+Debut
+    pour i<-- 0 a 9 pas 1 faire 
+   N(i) <-- 0
+   ecrire(N(i))
+fin pour 
+fin

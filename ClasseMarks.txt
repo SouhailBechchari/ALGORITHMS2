@@ -1,0 +1,15 @@
+algorithme_note
+Variable i : entier
+         s : reel
+tableau T(318) : Reel
+Debut
+pour i de 0 a 317 faire
+Ecrire ("donner la note d etudiant numero", i+1, ":")
+lire(T(i))
+fin pour 
+S <= 0
+pour i de 0 a 317 faire
+S<= S + T(i) 
+ecrire("la moyenne de ces notes est", S/318)
+fin pour
+fin
